@@ -22,8 +22,8 @@
 130 print "move all the o's to occupy the x's position"
 131 co=x-17:ro=33:gosub5020
 132 print "you can only move to an adjacent empty space or"
-133 co=x-10:ro=34:gosub5020
-134 print "leapfrog 1 opposing character"
+133 co=x-4:ro=34:gosub5020
+134 print "leapfrog 1 character"
 140 CO=x-4:RO=y+5:GOSUB5020
 141 print a$(1);" ";a$(2);" ";a$(3);" ";a$(4);" ";a$(5);" ";a$(6);
 142 print " ";a$(7);" ";a$(8);" ";a$(9):ro=11:gosub 5020
