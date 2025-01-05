@@ -11,20 +11,20 @@
 112 let move = 1
 113 GOSUB 5000
 114 LET X=35:LET Y=5
-115 co=x:ro=y:gosub5020
+115 co=x:ro=y:gosub 5020
 120 A1=1:A2=37:A3=40:GOSUB 5090:PRINT "LEAPFROG!";
 121 GOSUB 5140:PRINT
-125 co=x+3:ro=30:gosub5020
+125 co=x+3:ro=30:gosub 5020
 126 print "Rules"
-127 co=x-15:ro=31:gosub5020
+127 co=x-15:ro=31:gosub 5020
 128 print "move all the x's to occupy the o's position"
-129 co=x-15:ro=32:gosub5020
+129 co=x-15:ro=32:gosub 5020
 130 print "move all the o's to occupy the x's position"
-131 co=x-17:ro=33:gosub5020
+131 co=x-17:ro=33:gosub 5020
 132 print "you can only move to an adjacent empty space or"
-133 co=x-4:ro=34:gosub5020
+133 co=x-4:ro=34:gosub 5020
 134 print "leapfrog 1 character"
-140 CO=x-4:RO=y+5:GOSUB5020
+140 CO=x-4:RO=y+5:GOSUB 5020
 141 print a$(1);" ";a$(2);" ";a$(3);" ";a$(4);" ";a$(5);" ";a$(6);
 142 print " ";a$(7);" ";a$(8);" ";a$(9):ro=11:gosub 5020
 143 print "1 2 3 4 5 6 7 8 9"
